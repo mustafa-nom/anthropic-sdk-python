@@ -1,5 +1,35 @@
 # Changelog
 
+## 0.43.0 (2025-01-08)
+
+Full Changelog: [v0.42.0...v0.43.0](https://github.com/anthropics/anthropic-sdk-python/compare/v0.42.0...v0.43.0)
+
+### Features
+
+* **api:** add message batch delete endpoint ([#802](https://github.com/anthropics/anthropic-sdk-python/issues/802)) ([9cf1e99](https://github.com/anthropics/anthropic-sdk-python/commit/9cf1e9920d3e0ce8496859b119f19eed8cd75e2b))
+
+
+### Bug Fixes
+
+* **client:** only call .close() when needed ([#811](https://github.com/anthropics/anthropic-sdk-python/issues/811)) ([21e0eb3](https://github.com/anthropics/anthropic-sdk-python/commit/21e0eb3c2bb043814541c9dcb68498066be1fc78))
+
+
+### Chores
+
+* add missing isclass check ([#806](https://github.com/anthropics/anthropic-sdk-python/issues/806)) ([1fc034d](https://github.com/anthropics/anthropic-sdk-python/commit/1fc034d784e9a8b30866a8058a4bd50ec2605fd3))
+* bump testing data uri ([#800](https://github.com/anthropics/anthropic-sdk-python/issues/800)) ([641ae8d](https://github.com/anthropics/anthropic-sdk-python/commit/641ae8d412e365e44c8965222f487e30a63d57ee))
+* **internal:** bump httpx dependency ([#809](https://github.com/anthropics/anthropic-sdk-python/issues/809)) ([7d678f1](https://github.com/anthropics/anthropic-sdk-python/commit/7d678f19b86ac1ad5d18ed47739d3df64187c843))
+* **internal:** minor reformatting ([5a80668](https://github.com/anthropics/anthropic-sdk-python/commit/5a806684c4aaaf7d493bf9ef193e8031f7290b78))
+* **internal:** update examples ([#810](https://github.com/anthropics/anthropic-sdk-python/issues/810)) ([bb588ca](https://github.com/anthropics/anthropic-sdk-python/commit/bb588ca71a374b38797390c62bee66a0329c28a0))
+* **vertex:** remove deprecated HTTP client options ([3f4eada](https://github.com/anthropics/anthropic-sdk-python/commit/3f4eada664421accec6f33a7ead44101323d0b14))
+* **vertex:** remove deprecated HTTP client options ([c82f3e8](https://github.com/anthropics/anthropic-sdk-python/commit/c82f3e8ce16e8840cce94e023a82c596432f5c98))
+
+
+### Refactors
+
+* **stream:** make `MessageStream` wrap `Stream` directly ([#805](https://github.com/anthropics/anthropic-sdk-python/issues/805)) ([5669399](https://github.com/anthropics/anthropic-sdk-python/commit/56693993cce931fb0ae12d8890099069c4c95dff))
+* **vertex:** remove deprecated HTTP client options ([#808](https://github.com/anthropics/anthropic-sdk-python/issues/808)) ([3f4eada](https://github.com/anthropics/anthropic-sdk-python/commit/3f4eada664421accec6f33a7ead44101323d0b14))
+
 ## 0.42.0 (2024-12-17)
 
 Full Changelog: [v0.41.0...v0.42.0](https://github.com/anthropics/anthropic-sdk-python/compare/v0.41.0...v0.42.0)
